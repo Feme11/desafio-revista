@@ -1,0 +1,35 @@
+body {
+  font-family: monospace;
+}
+
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2, h4 {
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.aside {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
