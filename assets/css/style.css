@@ -3,8 +3,8 @@ body {
 }
 
 body {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -12,12 +12,52 @@ h1 {
 }
 
 h2, h4 {
-  font-weight: 500;
+  font-weight: 15px;
   margin: 0;
 }
 
 p {
   font-weight: 400;
+}
+
+.main {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 1em 0 2em 5em;
+}
+
+.main__noticia {
+  padding: 1em;
+}
+
+.main__h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main__cuerpo {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.main__img {
+  width: 100%;
+}
+
+.navigation {
+  margin: 1em 3.5em 1em 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__logo {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -28,8 +68,37 @@ li {
   display: inline-block;
 }
 
+.navigation__input {
+  border-radius: 25px;
+}
+
+@media (max-width: 700px) {
+  .navigation__item--hidden {
+    visibility: hidden;
+  }
+}
 .aside {
+  width: 20%;
   float: right;
+  margin: 1em 3.5em 2em 0;
+}
+
+.aside__p {
+  font-size: 15px;
+}
+
+.aside__tags {
+  padding: 1em 0 1em 0;
+}
+
+.aside__list {
+  padding: 0.5em;
+  color: white;
+  background-color: steelblue;
+}
+
+.aside__img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

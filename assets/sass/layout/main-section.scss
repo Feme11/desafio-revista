@@ -1,1 +1,25 @@
+// desktop
+.main {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 1em 0 2em 5em;
+}
 
+.main__noticia {
+  padding: 1em;
+}
+
+.main__h2 {
+  font-weight: $bold;
+  font-size: $large;
+}
+
+.main__cuerpo {
+  font-size: $small;
+  text-align: justify;
+}
+
+.main__img {
+  width: 100%;
+}

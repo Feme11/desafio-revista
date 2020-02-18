@@ -1,6 +1,34 @@
+// desktop
+.navigation {
+  margin: 1em 3.5em 1em 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__logo {
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul {
   margin: 0;
 }
+
 li {
   display: inline-block;
+}
+
+.navigation__input {
+  border-radius: 25px;
+}
+
+// navigation mobile
+@media (max-width: 700px) {
+  .navigation__item--hidden {
+    visibility: hidden;
+  }
 }
